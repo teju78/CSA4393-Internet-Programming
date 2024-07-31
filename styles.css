@@ -1,0 +1,320 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:orangered;
+    background: #f0f0f0; /* Fallback color */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Background Images */
+body.home {
+    background-image: url('home.png'); /* Replace with the path to your home page background image */
+}
+
+body.menu {
+    background-image: url('menu.png'); /* Replace with the path to your menu page background image */
+}
+
+body.order {
+    background-image: url('order.png'); /* Replace with the path to your order page background image */
+    background-color: #e8f0f2; /* Light blue background color for a pleasant look */
+}
+
+body.payment {
+    background-image: url('path/to/payment-background.jpg'); /* Replace with the path to your payment page background image */
+    background-color: #e8f0f2;
+}
+
+body.contact {
+    background-image: url('contactus.png'); /* Replace with the path to your contact page background image */
+}
+
+body.logout {
+    background-color: #e8f0f2;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background for readability */
+    color: burlywood;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Order Form Styling */
+.order-form {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.order-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.order-form form input, .order-form form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.order-form form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+}
+/* Banner Styling */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Full height minus header height */
+    text-align: center;
+}
+
+.banner .welcome-text {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.banner p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+/* Payment Form Styling */
+.payment-form {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.payment-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-form form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.payment-form form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.payment-form form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Menu Items Styling */
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu-item {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100px; /* Medium size image */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.menu-item p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.menu-item button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.menu-item button:hover {
+    background: #555;
+}
+nav {
+    margin-top: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav-menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.register{
+    background: url('register.png') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 140px); /* Adjust based on header and footer height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    background: url('login.png') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 140px); /* Adjust based on header and footer height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register h2 {
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #575757;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p a {
+    color: #333;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+.hidden {
+    display: none;
+}
+
+
+
+

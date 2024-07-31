@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Foodie's Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="menu">
+    <header>
+        <h1>Foodie's Paradise</h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="payment.html">Payment</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="logout.html">Logout</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <h2 style="text-align:center;">Our Menu</h2>
+    <section class="menu-items">
+        <div class="menu-item">
+            <img src="images/image/pizza.png" alt="Pizza">
+            <h3 class="item-name">Pizza</h3>
+            <p>$2.50</p>
+            
+            <button onclick="addToCart('Pizza', 2.50)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/burger.png" alt="Burger">
+            <h3 class="item-name">Burger</h3>
+            <p>$3.49</p>
+            <button onclick="addToCart('Burger', 3.49)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/chicken-biryani.png" alt="chicken-biryani">
+            <h3 class="item-name">Chicken Biryani</h3>
+            <p>$4.25</p>
+            <button onclick="addToCart('Chicken Biryani', 4.25)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/fried-rice.png" alt="fried-rice">
+            <h3 class="item-name">Fried Rice</h3>
+            <p>$3.99</p>
+            <button onclick="addToCart('Fried Rice', 3.99)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/non-veg-meals.png" alt="non-veg-meals">
+            <h3 class="item-name">Non-Veg Meals</h3>
+            <p>$2.99</p>
+            <button onclick="addToCart('Non-Veg Meals', 2.99)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/chicken-curry.png" alt="chicken-curry">
+            <h3 class="item-name">Chicken Curry</h3>
+            <p>$1.99</p>
+            <button onclick="addToCart('Chicken Curry', 1.99)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/veg-meals.png" alt="veg-meals">
+            <h3 class="item-name">Veg Meals</h3>
+            <p>$2.45</p>
+            <button onclick="addToCart('Veg Meals', 2.45)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/ice-cream.png" alt="ice-cream">
+            <h3 class="item-name">Ice Cream</h3>
+            <p>$1.09</p>
+            <button onclick="addToCart('Ice Cream', 1.09)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/milkshake.png" alt="milkshake">
+            <h3 class="item-name">Milkshake</h3>
+            <p>$1.25</p>
+            <button onclick="addToCart('Milkshake', 1.25)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/image/coke.png" alt="coke">
+            <h3 class="item-name">Coke</h3>
+            <p>$1.00</p>
+            <button onclick="addToCart('Coke', 1.00)">Add to Cart</button>
+        </div>
+        <!-- Add other items similarly -->
+    </section>
+</body>
+</html>

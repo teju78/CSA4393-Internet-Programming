@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Foodie's Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contact">
+    <header>
+        <h1>Foodie's Paradise</h1>
+        <nav>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="payment.html">Payment</a>
+            <a href="contact.html">Contact</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="welcome-text">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any queries or support.</p>
+        </div>
+    </section>
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Feel free to reach out to us using the following contact details:</p>
+        <ul>
+            <li>Email: <a href="mailto:support@foodiesparadise.com">support@foodiesparadise.com</a></li>
+            <li>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            <li>Address: 123 Food Street, Flavor Town, FT 45678</li>
+        </ul>
+    </section>
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contact-form" method="POST" action="contact_form_handler.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
+
+
+
